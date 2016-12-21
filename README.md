@@ -35,7 +35,26 @@ Please find the full documentation on google drive : https://docs.google.com/doc
 Please download the shell script that will automatically install and configure Selenium grid demo environment.
 https://drive.google.com/file/d/0BzlCuRVCDu-YSTh4Mmg3ekRjNkk/view?ts=585a5547
 
+Run following command once you downloaded the shell script
 
+$ sh PATH_TO_GIT_REPO/grid_implementation/selenium_grid_demo.sh
+
+Once you successully setup the Demo then following are the steps to run the test cases on grid:
+
+1. Start the Hub (Please see the command to start hub in the google sheet SurveyMonkey- Grid Implementation)
+2. Registere the Nodes (Please see the command to register the node to hub in the google sheet SurveyMonkey- Grid Implementation)
+3. $ cd ~/Grid_Demo/
+4. $ source bin/activate
+5. $ cd sg_implementation
+6. Open the test_script.py file and replace the hub address as per hub address generated on your box. Save the file.
+7. By default, following command run the test cases from test_script.py on firefox browser.
+$ py.test -v -s test_script.py
+8. Run test cases on google chrome
+$ py.test -v -s test_script.py --browser=chrome
+9. Run test cases on google chrome
+$ py.test -v -s test_script.py --browser=firefox
+
+Please let me know if you face any issues.
 
 Thanks & Regards,
 
