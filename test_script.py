@@ -27,14 +27,14 @@ def test_two():
 	driver.quit()
 def test_three():
 	driver = get_driver()
-	driver.get("https://surveymonkey.slack.com")
+	driver.get("https://gmail.slack.com")
 	driver.quit()
 def test_four():
 	driver = get_driver()
-	driver.get("https://www.monkeytest1.com/")
+	driver.get("https://www.facebook.com/")
 	driver.quit()
 
 def test_five():
 	driver = get_driver()
-	driver.get("https://www.monkeytest.com/")
+	driver.get("http://www.infobeans.com/")
 	driver.quit()
