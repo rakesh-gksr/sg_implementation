@@ -28,6 +28,10 @@ ChromeDriver 2.26.436421 (6c1a3ab469ad86fd49c8d97ede4a6b96a49ca5f6)
 
 Please find the full documentation on google drive : https://docs.google.com/document/d/1csquRGiRWlasPpt0o73F6GJ5Z-SaSA6VZiJDJ_B1hwo/edit#
 
+Grid Demo Setup: Please download the shell script that will automatically install and configure Selenium grid demo environment.
+https://drive.google.com/file/d/0BzlCuRVCDu-YSTh4Mmg3ekRjNkk/view?ts=585a5547
+
+
 
 Thanks & Regards,
 
