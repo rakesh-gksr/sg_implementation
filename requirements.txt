@@ -1,0 +1,8 @@
+apipkg==1.4
+execnet==1.4.1
+py==1.4.32
+pytest==3.0.5
+pytest-xdist==1.14
+requests==2.12.4
+selenium==2.53.6
+yolk==0.4.3
